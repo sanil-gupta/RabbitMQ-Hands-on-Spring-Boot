@@ -14,6 +14,7 @@ public class MessageController {
     private RabbitMQProducer producer;
 
     public MessageController(RabbitMQProducer producer) {
+        System.out.println("Hello");
         this.producer = producer;
     }
 
